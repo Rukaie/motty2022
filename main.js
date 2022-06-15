@@ -16,15 +16,15 @@ let sizemoji = [];
 function setup() {
     createCanvas(windowWidth, windowHeight);
     button = createButton('enter');
-    button.position(20, 60);
+    button.position(20, -60);
     button.mousePressed(hello);
     input = createInput('望月崇広です。よろしくお願いします。');
-    input.position(20, 20);
+    input.position(20, -30);
     inputText = input.value();
-    sizeSlider = createSlider(20, 100, 35);
-    sizeSlider.position(20, 105);
+    sizeSlider = createSlider(20, 100, -35);
+    sizeSlider.position(20, -105);
     speedSlider = createSlider(18, 35, 20);
-    speedSlider.position(20, 145);
+    speedSlider.position(20, -145);
     hello();
 
     createCanvas(windowWidth, windowHeight);
