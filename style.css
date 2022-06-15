@@ -1,9 +1,9 @@
-.wrapper{
-    position: absolute;
-    width: 50vw;
-    height: 50vw;
-    left: 25vw;
-    top: 20%;
-    background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 2vw;
+.wrapper {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  left: 25vw;
+  top: 20%;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 2 vw;
 }
