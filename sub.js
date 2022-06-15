@@ -15,7 +15,7 @@ function draw() {
 		rect(0, y, width, height / num);
 		drawingContext.clip();
 		fill(0);
-		text("Motty Melody\nMotty Melody\nMotty Melody", width / 2  , height / 2 + 50 * tan(frameCount * 0.05 + 1.5 * noise(y)));
+		text("Motty's Page\nMotty's Page\nMotty's Page", width / 2  , height / 2 + 50 * tan(frameCount * 0.05 + 1.5 * noise(y)));
 		drawingContext.restore();
 	}
 }
