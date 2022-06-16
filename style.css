@@ -1,35 +1,41 @@
 .wrapper {
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   position: absolute;
   width: 75vw;
-  height: 50vw;
+  /* height: 50vw; */
   left: 12.5vw;
-  top: 20%;
-  background-color: rgba(255, 255, 255, 0.75);
+  top: 15vh;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 2vw;
 }
 
-h2{
-text-align: center;
+h2 {
+  text-align: center;
 }
 
-.wrapper div{
-    margin: 1vw 2vw;
+.wrapper div {
+  margin: 1vw 2vw;
 }
 
-.main{
-display: flex;
-line-height: 1.75em;
+.main {
+  display: flex;
+  line-height: 1.75em;
+  justify-content: center;
 }
 
-.myimg{
-    height: 30vw;
-    margin: 5vw 0;
+.myimg {
+  height: 30vh;
+  margin: 5vw 0;
 }
 
-body{
-    overflow: hidden;
+body {
+  /* overflow: hidden; */
+  position: fixed;
+  display: block;
 }
 
-.insta{
-    height: 50vw;
+.insta {
+  height: 50vh;
 }
